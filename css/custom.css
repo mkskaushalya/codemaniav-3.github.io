@@ -695,3 +695,30 @@ p {
 #mainNav.navbar-shrink .nav-link:hover {
     color: rgba(240, 176, 54) !important;
 }
+
+
+/* Registration form style */
+#register-form {
+  width:65%;
+  height: 1600px;
+}
+
+@media screen and (max-width: 480px) {
+  #register-form {
+    width:95%;
+    height: 1700px;
+  }
+}
+@media screen and (max-width: 725px) and (min-width: 481px) {
+  #register-form {
+    width:90%;
+    height: 1700px;
+  }
+}
+    
+@media screen and (max-width: 800px) and (min-width: 726px) {
+  #register-form {
+    width:85%;
+    height: 1650px;
+  }
+}
